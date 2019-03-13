@@ -3,18 +3,27 @@ $(document).ready(function() {
     event.preventDefault();
     var number = parseInt($("input#number").val());
     var result = counter(number);
+    for (var i = 0; i < number; i ++){
+      $(".unstyled").append("<li>" + result[i] + "</li>");
+    }
 
-
-    $("#result").text(result);
+    $("#result").show();
 
   });
 });
 
 var counter = function(number){
-  if (number === 0 || number === 1)
-    return 1;
-  for (var i = 0; i <= number.length; i += 1) {
-    return i;
+  var numberList = [];
+  for (var i = 1; i < number; i ++){
+    if (i % 3 === 0){
+      numberList.push("ping")
+    } else if(i % 5 === 0){
+      numberList.push("pong")
+    } else if(i % 15 === 0){
+      numberList.push("pingpong")
+    } else{
+      numberList.push(i);
+    }
   }
-  return true
+  return numberList
 };

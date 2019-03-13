@@ -1,3 +1,17 @@
-/* #result {
+#result {
   display: none;
-} */
+}
+body {
+  background-color: orange;
+}
+
+.jumbotron {
+  text-indent: 40%;
+  background-color: yellow;
+}
+
+
+.sidebar {
+  background-color: grey;
+  float: left;
+}
