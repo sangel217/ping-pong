@@ -1,10 +1,10 @@
-#Ping Pong Website
+# Ping Pong Website
 
-###JavaScript Looping Exercise for Epicodus, 03.10.2019
+### JavaScript Looping Exercise for Epicodus, 03.10.2019
 
-##By Sarah Angel
+## By Sarah Angel
 
-##Description
+## Description
 
 This is a website that take a number a User inputs and returns a range of numbers from 1 until the chosen number with the following exceptions:
   -Numbers divisible by 3 are replaced with "ping"
@@ -12,7 +12,7 @@ This is a website that take a number a User inputs and returns a range of number
   -Numbers divisible by 15 are replaced with "pingpong"
 A user should be able to enter a new number and see new results over and over again.
 
-##Specifications
+## Specifications
 -The program can count up to the provided number.
   -**Example Input:** 2
   -**Example Output:** [1,2]
@@ -35,7 +35,7 @@ A user should be able to enter a new number and see new results over and over ag
   -**Example input:** 15
   -**Example Output:** "pingpong"
 
-##Technologies used
+## Technologies used
 
 HTML
 
@@ -47,5 +47,5 @@ JQuery
 
 Bootstrap
 
-##Legal
+## Legal
 Copyright (c) 2019 Copyright Holder All Rights Reserved.
